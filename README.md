@@ -50,3 +50,13 @@ showPopup({
   position: 'top-right'
 });
 ```
+
+## 注意
+`type="module"` の `<script>` で読み込む必要があります。
+
+ローカルファイルから直接読み込む場合、モジュールの読み込みにはローカルHTTPサーバーが必要です（例: `Live Server` など）。
+
+## ライセンス
+[MIT](https://opensource.org/licenses/mit-license.php)
+
+&copy; 2025 talus
