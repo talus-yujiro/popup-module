@@ -57,6 +57,6 @@ showPopup({
 ローカルファイルから直接読み込む場合、モジュールの読み込みにはローカルHTTPサーバーが必要です（例: `Live Server` など）。
 
 ## ライセンス
-[MIT](./LICENCE)
+[MIT](./LICENSE)
 
 &copy; 2025 talus
