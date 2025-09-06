@@ -36,7 +36,7 @@ showPopup({
 | `content`          | 文字列   | ポップアップ内に表示するテキストやHTMLを文字列で指定します。                                  | `'これはポップアップの内容です。<br><b>太字も可</b>'` |
 | `closeButton`      | 真偽値   | `true`で閉じるボタン（×印）を表示。`false`で非表示。                                        | `true`                                              |
 | `darkenBackground` | 真偽値   | `true`で背景を半透明の黒で暗くする。`false`で暗くしない。                                    | `true`                                              |
-| `duration`         | 整数     | ミリ秒単位でポップアップが自動的に閉じるまでの時間。指定しないか`0`は自動で閉じない。          | `5000`（5秒）                                       |
+| `duration`         | 整数     | ミリ秒単位でポップアップが自動的に閉じるまでの時間。指定しないか`0`を指定すると自動で閉じない。          | `5000`（5秒）                                       |
 | `position`         | 文字列   | ポップアップの表示位置。以下のいずれかを指定：<br>top-right, top-left, bottom-right, bottom-left,<br>top, bottom, right, left, center, none | `top-right`                                         |
 
 ### 例
